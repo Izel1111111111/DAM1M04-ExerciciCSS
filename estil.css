@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: lightgray;
+    padding: 15px;
+}
+
+#principal {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#base > li {
+    margin: 10px;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    font-style: italic;
+}
+
+h1::before {
+    content: "★ ";
+}
+
+h1::after {
+    content: " ★";
+}
